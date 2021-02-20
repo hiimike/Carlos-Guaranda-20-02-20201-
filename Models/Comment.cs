@@ -6,14 +6,6 @@ using System.Threading.Tasks;
 
 namespace Test_BertoniSolutions.Models
 {
-
-    /* {
-    "postId": 1, -> photoId
-    "id": 1,
-    "name": "id labore ex et quam laborum",
-    "email": "Eliseo@gardner.biz",
-    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
-  },*/
     public class Comment : Domain
     {
 

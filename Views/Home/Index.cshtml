@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Albums Page";
+}
+
+@model List<Album>
+
+
+<div class="text-center">
+    <h1 class="display-4">Lista de ALbums</h1>
+
+    @foreach (Album album in Model)
+    {
+<div>
+    <p>@album.Title</p>
+    <div data-id="@album.Id">
+        <button class="button album-button">Vizualizar Album</button>
+    </div>
+    <div class="text-box-@album.Id"></div>
+
+</div>
+      
+    }
+</div>
+
+
+
+

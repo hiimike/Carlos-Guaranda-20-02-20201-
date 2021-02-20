@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Comment>
+
+    <div class="text-center">
+        <h3>Comentarios</h3>
+
+        @foreach (Comment comment in Model)
+        {
+            <ul class="list-group">
+                <li class="list-group-item">@comment.Email : @comment.Body</li>
+            </ul>
+
+        }
+
+    </div>
+
